@@ -9,8 +9,8 @@ export default function Footer() {
             <div className="flex items-center space-x-3 mb-4">
               <Building2 className="h-8 w-8" />
               <div>
-                <h3 className="text-lg font-bold">Prefeitura de Belém</h3>
-                <p className="text-gray-400 text-sm">SEPLAN - Secretaria de Planejamento</p>
+                <h3 className="text-lg font-bold">ENCIBRA S.A.</h3>
+                <p className="text-gray-400 text-sm">Encibra S/A Estudos e Projetos de Engenharia</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm">

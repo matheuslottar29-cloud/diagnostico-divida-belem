@@ -199,8 +199,8 @@ export default function TechnicalJustification() {
               onClick={() => {
                 // Criar link para download do documento
                 const link = document.createElement('a');
-                link.href = '/diagnostico_divida_belem.md';
-                link.download = 'Diagnostico_Tecnico_Financeiro_Belem_PA.md';
+                link.href = '/diagnostico_divida_belem.pdf';
+                link.download = 'Diagnostico_Tecnico_Financeiro_Belem_PA.pdf';
                 link.click();
               }}
             >
