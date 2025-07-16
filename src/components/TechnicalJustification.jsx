@@ -1,6 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { CheckCircle, ArrowRight, FileText, Target, Clock, DollarSign } from 'lucide-react'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { CheckCircle, Clock, DollarSign, FileText, Target } from 'lucide-react'
 
 export default function TechnicalJustification() {
   const justifications = [
@@ -141,49 +141,6 @@ export default function TechnicalJustification() {
             </div>
           </CardContent>
         </Card>
-
-        {/* Cronograma de Implementação */}
-        <Card className="mb-8">
-          <CardHeader>
-            <CardTitle className="flex items-center space-x-2">
-              <Clock className="h-5 w-5" />
-              <span>Cronograma de Implementação</span>
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-6">
-              {recommendations.map((phase, index) => (
-                <div key={index} className="flex items-start space-x-4">
-                  <div className="flex-shrink-0">
-                    <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
-                      {index + 1}
-                    </div>
-                  </div>
-                  <div className="flex-grow">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-lg font-semibold text-gray-900">{phase.phase}</h3>
-                      <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-medium">
-                        {phase.duration}
-                      </span>
-                    </div>
-                    <ul className="space-y-1">
-                      {phase.actions.map((action, actionIndex) => (
-                        <li key={actionIndex} className="flex items-center space-x-2 text-gray-700">
-                          <CheckCircle className="h-4 w-4 text-green-600" />
-                          <span>{action}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  {index < recommendations.length - 1 && (
-                    <ArrowRight className="h-5 w-5 text-gray-400 mt-2" />
-                  )}
-                </div>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-
         {/* Benefícios Esperados */}
         <Card className="bg-green-50 border-green-200">
           <CardHeader>
@@ -234,10 +191,10 @@ export default function TechnicalJustification() {
           <div className="bg-blue-600 text-white rounded-lg p-6">
             <h3 className="text-xl font-bold mb-2">Próximo Passo: Aprovação Política</h3>
             <p className="mb-4">
-              A janela de oportunidade é limitada. O início imediato das tratativas é essencial 
+              A janela de oportunidade é limitada. O início imediato das tratativas é essencial
               para implementar a solução antes que a pressão fiscal se torne insustentável.
             </p>
-            <Button 
+            <Button
               className="bg-white text-blue-600 hover:bg-gray-100"
               onClick={() => {
                 // Criar link para download do documento
