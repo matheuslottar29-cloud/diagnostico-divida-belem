@@ -4,7 +4,7 @@
 
 ---
 
-**Elaborado por:** Manus AI  
+**Elaborado por:** ENCIBRA S.A. 
 **Data:** Julho de 2025  
 **Destinatário:** Prefeitura Municipal de Belém e SEPLAN  
 
@@ -460,7 +460,7 @@ Recomenda-se, portanto, a aprovação imediata da estratégia proposta e o iníc
 
 ---
 
-**Documento elaborado por:** Manus AI  
+**Documento elaborado por:** Encibra S.A.
 **Data de conclusão:** Julho de 2025  
 **Classificação:** Técnico-Institucional  
 **Destinatário:** Prefeitura Municipal de Belém e SEPLAN

@@ -14,7 +14,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm">
-              Diagnóstico técnico-financeiro elaborado para fundamentar a estruturação 
+              Diagnóstico técnico-financeiro elaborado para fundamentar a estruturação
               de operação de reperfilamento da dívida garantida junto ao BIRD.
             </p>
           </div>
@@ -32,7 +32,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>Elaborado por: Manus AI</span>
+                <span>Elaborado por: ENCIBRA S.A.</span>
               </div>
             </div>
           </div>
